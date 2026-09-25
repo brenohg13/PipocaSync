@@ -1,0 +1,24 @@
+# Ambientes Virtuais e Cache
+venv/
+__pycache__/
+*.pyc
+
+# Configurações com Credenciais (NUNCA ENVIAR PARA GITHUB)
+config.ini
+*.session
+*.session-journal
+
+# Logs e Estados
+bot.log
+rss_state.txt
+downloads/
+temp/
+
+# Banco de dados (não vamos subir o histórico local)
+*.db
+*.sqlite
+
+# Arquivos de Sistema
+.DS_Store
+git_*.sh
+git_*.sh
